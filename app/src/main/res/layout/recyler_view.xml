@@ -12,13 +12,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/no_internet_connection"
         android:layout_centerInParent="true"
-        android:text="@string/no_internet_connection"/>
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/no_data"
-        android:text="@string/no_data_available"/>
+        />
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

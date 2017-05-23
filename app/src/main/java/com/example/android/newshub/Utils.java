@@ -153,12 +153,13 @@ public final class Utils {
                 String section = currentNews.getString("sectionId");
                 // Extract the value for the key called "webPublicationDate"
                 String date = currentNews.getString("webPublicationDate");
+                String webUrl = currentNews.getString("webUrl");
 
 
 
                 // Create a new {@link Book} object with the thumbnail, title, author,publisher,pageCount
                 // and url from the JSON response.
-                 News newNews = new News(title,section,date);
+                 News newNews = new News(title,section,date,webUrl);
 
                 // Add the new {@link book} to the list of books.
                 news.add(newNews);
